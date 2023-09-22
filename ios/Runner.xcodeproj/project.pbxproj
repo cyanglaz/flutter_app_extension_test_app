@@ -13,8 +13,6 @@
 		681305C529EDC25A00F2E28C /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 681305C429EDC25A00F2E28C /* ShareViewController.m */; };
 		681305C829EDC25A00F2E28C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 681305C629EDC25A00F2E28C /* MainInterface.storyboard */; };
 		681305CC29EDC25A00F2E28C /* FlutterShare.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 681305C129EDC25A00F2E28C /* FlutterShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		6896A53A2ABCBDB6008D6961 /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6896A5392ABCBDB6008D6961 /* Flutter.xcframework */; };
-		6896A53B2ABCBDB6008D6961 /* Flutter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6896A5392ABCBDB6008D6961 /* Flutter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
@@ -56,7 +54,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6896A53B2ABCBDB6008D6961 /* Flutter.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,9 +81,6 @@
 		681305C429EDC25A00F2E28C /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
 		681305C729EDC25A00F2E28C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		681305C929EDC25A00F2E28C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6896A5322ABB93D8008D6961 /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = ../../../flutter/flutter/bin/cache/artifacts/engine/ios/extension_safe/Flutter.xcframework; sourceTree = "<group>"; };
-		6896A5352ABCA8AE008D6961 /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = ../../../flutter/engine/src/out/ios_debug_unopt_extension_safe/Flutter.xcframework; sourceTree = "<group>"; };
-		6896A5392ABCBDB6008D6961 /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = "../../../flutter/flutter/bin/cache/artifacts/engine/ios-release/extension_safe/Flutter.xcframework"; sourceTree = "<group>"; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
@@ -104,7 +98,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6896A53A2ABCBDB6008D6961 /* Flutter.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +133,6 @@
 		681305D229EDC26E00F2E28C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6896A5392ABCBDB6008D6961 /* Flutter.xcframework */,
-				6896A5352ABCA8AE008D6961 /* Flutter.xcframework */,
-				6896A5322ABB93D8008D6961 /* Flutter.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
