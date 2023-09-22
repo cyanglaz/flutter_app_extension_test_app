@@ -57,7 +57,7 @@
       allowLocationSimulation = "YES"
       launchAutomaticallySubstyle = "2">
       <RemoteRunnable
-         runnableDebuggingMode = "0"
+         runnableDebuggingMode = "1"
          BundleIdentifier = "com.apple.mobileslideshow"
          RemotePath = "/Applications/MobileSlideShow.app">
       </RemoteRunnable>
